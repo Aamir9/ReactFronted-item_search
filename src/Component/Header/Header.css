@@ -1,0 +1,355 @@
+/* Topbar */
+.topbar {
+  background: #043289;
+}
+
+.topbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.topbar ul li:nth-last-child(3) {
+  margin: 0 auto;
+}
+.TopBarFacebook {
+  display: none;
+}
+.topbar ul li a ,.logOut{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.topbar ul li a i {
+  font-style: normal;
+}
+.topbar ul li a svg {
+  font-size: 26px;
+  font-weight: 300;
+  margin-right: 6px;
+}
+/* Header */
+header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.5s;
+  z-index: 99999;
+  background: #fff;
+}
+header.fixed {
+  box-shadow: 0 1px 90px 0px #00000010;
+  transition: all 0.5s;
+}
+
+header.fixed .navbar-brand {
+  max-width: 170px;
+  transition: all 0.5s;
+}
+.navbar-brand {
+  max-width: 300px;
+  transition: all 0.5s;
+  display: block;
+}
+.navbar > .container,
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div#navbarNav {
+  width: 100%;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar-nav a {
+  color: #000000;
+  opacity: 0.6;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  transition: all 0.5s;
+  margin: 0 15px;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a.active {
+  opacity: 1;
+  transition: all 0.5s;
+  color: #000;
+}
+.header-btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn-wrap li a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #043289;
+  background: rgb(4 50 137 / 10%);
+  font-size: 22px;
+  transition: all 0.5s;
+  margin-left: 15px;
+}
+
+.header-btn-wrap li a:hover {
+  background: #043289;
+  color: #fff;
+  transition: all 0.5s;
+}
+.header-search {
+  position: relative;
+}
+
+.header-search input {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  background: transparent;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 9;
+  transition: all 0.5s;
+}
+
+.header-search input:focus {
+  width: 250px;
+  background: rgb(229 234 243);
+  opacity: 1;
+  right: 60px;
+  transition: all 0.5s;
+  padding: 0 0px 0 20px;
+}
+.header-search input:focus + a {
+  z-index: 99;
+}
+/* Home Banner */
+.HomeBanner-section {
+  padding: 20px 0;
+}
+.homebanner-search {
+  position: relative;
+}
+
+.homebanner-search input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 0 15px 0 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homebanner-search a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 18px;
+}
+
+.homebanner-search input::placeholder {
+  opacity: 0.5;
+}
+.form-select:focus {
+  border-color: #0000;
+  box-shadow: none;
+}
+
+.select-box {
+  height: 50px;
+  border: none;
+  border-radius: 0;
+}
+
+@media (max-width: 1199px) {
+  .navbar-nav a {
+    margin: 0 10px;
+  }
+  .navbar-brand {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-right: auto;
+  }
+  .navbar-toggler {
+    order: 1;
+    padding: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: rgba(4, 50, 137, 0.1);
+    border-radius: 0;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .navbar-brand {
+    margin-right: auto;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: #0000;
+    width: 16px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    transition: all 0.5s;
+  }
+  .navbar-toggler .navbar-toggler-icon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    background: #043289;
+    height: 2px;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler .navbar-toggler-icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    background: #043289;
+    height: 2px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    background: #043289;
+    width: 16px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon:after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 0;
+    width: 24px;
+    background: #043289;
+    height: 2px;
+    transform: unset;
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon:before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    width: 8px;
+    top: unset;
+    background: #043289;
+    height: 2px;
+    transform: unset;
+    transition: all 0.5s;
+  }
+  .offcanvas-body {
+    transition: all 0.5s;
+  }
+
+  .navbar-nav {
+    padding: 8rem 0 0 0 !important;
+  }
+
+  .offcanvas.offcanvas-end {
+    transition: all 0.5s;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    max-width: 200px;
+  }
+  .TopBarFacebook {
+    display: block;
+  }
+
+  .topbar ul li:nth-last-child(3) {
+    margin: 0;
+  }
+
+  .topbar ul li a i {
+    display: none;
+  }
+
+  .topbar ul li a svg {
+    margin: 0 10px 0 0;
+  }
+
+  .topbar ul li:nth-last-child(1) {
+    margin-left: auto;
+  }
+  .navbar-nav {
+    padding: 7rem 0 0 0 !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .header-btn-wrap li a {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-left: 8px;
+  }
+
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    margin-left: 8px;
+  }
+
+  .navbar-brand {
+    max-width: 150px;
+  }
+
+  .header-search input:focus {
+    width: 170px;
+    right: 42px;
+  }
+  .navbar > .container,
+  .navbar-expand-lg .navbar-nav {
+    flex-wrap: nowrap;
+  }
+}

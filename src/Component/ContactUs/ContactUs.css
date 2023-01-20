@@ -1,0 +1,38 @@
+.contactBanner{
+    background-image: url('../../../public/assets/images/contactUs.png');
+    padding: 100px 60px;
+    background-size:cover;
+    background-position: right;
+    background-repeat:none;
+}
+.contactBanner h3 {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+}
+
+@media (max-width: 1199px) {
+    .contactBanner{
+        padding: 80px 60px;
+    }
+    .contactBanner {
+        padding: 50px 25px;
+    }
+    
+    
+    .contact-form {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 767px) {
+.contact-form h4 {
+    font-size: 22px;
+    line-height: initial;
+}
+
+.form-input {
+    margin: 8px 0;
+}
+}

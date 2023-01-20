@@ -1,0 +1,123 @@
+.rentprocess, .rentForm {
+    text-align: center;
+}
+.rentprocess {
+    padding: 80px 0;
+}
+.rentprocess h4, .rentForm h4 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.rentprocess p, .rentForm p {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 720px;
+    margin: 0 auto 50px;
+}
+
+.rentprocess-box {
+    list-style: none;
+    padding: 0;
+    max-width: 1053px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.rentprocess-box li {
+    width: 33.33%;
+    background: #FFFFFF;
+    padding: 50px 40px;
+    margin: 0 15px;
+}
+
+.rentprocess-box li span {
+    background: rgba(4, 50, 137, 0.05);
+    color: #043289;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 30px;
+}
+
+.rentprocess-box li h6 {
+    color: #043289;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+
+@media (max-width:1199px) {
+    
+    .rentprocess h4, .rentForm h4 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .rentprocess p, .rentForm p {
+        margin-bottom: 30px;
+    }
+    .rentprocess {
+        padding: 60px 0;
+    }
+    }
+    
+@media (max-width:991px) {
+    
+    .rentprocess h4, .rentForm h4 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .rentprocess-box li {
+        width: 100%;
+        padding: 25px;
+        margin: 0 0 19px 0;
+    }
+
+    .rentprocess-box {
+        flex-wrap: wrap;
+    }
+
+    .rentprocess-box li span {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .rentprocess-box li h6 {
+        font-size: 16px;
+    }
+
+    .rentFormMain {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .rentprocess {
+        padding: 50px 0;
+    }
+    }
+
+    @media (max-width:767px) {
+    
+        .rentprocess h4, .rentForm h4 {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        }

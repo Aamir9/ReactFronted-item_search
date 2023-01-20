@@ -1,0 +1,25 @@
+.otp-link {
+    text-decoration-line: underline;
+    color: #000000;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.otp-link a {
+    color: #043289;
+    font-weight: 600;
+}
+
+.otpboxWrap {
+    display: flex;
+}
+
+.otpboxWrap input {
+    width: 60px;
+    margin-right: 11px;
+    height: 60px;
+}

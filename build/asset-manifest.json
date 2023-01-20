@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.474d6362.css",
+    "main.js": "/static/js/main.2de16e7a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/sellus-banner.png": "/static/media/sellus-banner.4f2f3a34c46c276795b1.png",
+    "static/media/contactUs.png": "/static/media/contactUs.9c2af97d21e98479d9a7.png",
+    "static/media/bg-remove.png": "/static/media/bg-remove.45c0e98de0ec1bd27e5a.png",
+    "static/media/rentFormMain.png": "/static/media/rentFormMain.de320bf799a372450718.png",
+    "index.html": "/index.html",
+    "main.474d6362.css.map": "/static/css/main.474d6362.css.map",
+    "main.2de16e7a.js.map": "/static/js/main.2de16e7a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.474d6362.css",
+    "static/js/main.2de16e7a.js"
+  ]
+}

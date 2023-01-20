@@ -1,0 +1,131 @@
+.product-cart-box-wrap {
+    display: flex;
+    margin: 15px 0;
+    padding: 15px;
+    background: #fff;
+    width: 100%;
+}
+
+.product-cart-img {
+    width: 260px;
+    height: 260px;
+}
+
+.product-cart-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-cart-info {
+    width: calc(100% - 290px);
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid rgb(92 92 92 / 15%);
+}
+
+.product-cart-info > span {
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.product-cart-info h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.product-cart-info h6 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.product-cart-info h6 i {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.product-cart-info p {
+    letter-spacing: 0.01em;
+    color: #05823F;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.qtyNumber {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.qtyNumber i {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    margin-right: 12px;
+}
+
+.quantity-picker {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.quantity-picker button {
+    width: 40px;
+    height: 40px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 31px;
+    color: #000000;
+}
+
+.quantity-picker input {
+    width: 70px;
+    height: 40px;
+    background: #F3F3F3;
+    margin: 0 5px;
+    padding: 0;
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.product-btn-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.product-btn-wrap a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+}

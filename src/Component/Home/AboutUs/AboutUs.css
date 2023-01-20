@@ -1,0 +1,146 @@
+.AboutUSMainWrap {
+  display: flex;
+  padding: 150px 0 60px;
+}
+
+.AboutUsTopWrap {
+  width: 60%;
+  position: relative;
+  z-index: 1;
+}
+
+.AboutUsBottomWrap {
+  width: 50%;
+  margin-left: -50px;
+}
+
+.AboutImg {
+  border: 10px solid #ffffff;
+}
+
+.AboutImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.AboutInfo h3 {
+  letter-spacing: 0.01em;
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 51px;
+  margin-bottom: 18px;
+}
+
+.AboutInfo p {
+  letter-spacing: 0.01em;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.AboutInfo {
+  padding: 15px;
+}
+
+.AboutUsBottomWrap .AboutInfo {
+  padding-left: 6rem;
+}
+
+.AboutUsTopWrap .AboutInfo {
+  padding-right: 11rem;
+}
+
+@media (max-width: 1599px) {
+  .AboutUSMainWrap {
+    padding: 100px 0 60px;
+  }
+
+  .AboutInfo h3 {
+    font-size: 32px;
+    line-height: unset;
+  }
+}
+
+@media (max-width: 1429px) {
+  .AboutUSMainWrap {
+    padding: 60px 0 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .AboutInfo h3 {
+    font-size: 28px;
+  }
+
+  .AboutInfo p {
+    line-height: 24px;
+  }
+
+  .AboutUsBottomWrap .AboutInfo {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .AboutUSMainWrap {
+    padding: 40px 0 20px;
+  }
+  .AboutUsTopWrap .AboutInfo {
+    padding: 0;
+  }
+
+  .AboutUSMainWrap {
+    flex-wrap: wrap;
+  }
+
+  .AboutUsTopWrap .AboutImg {
+    display: none;
+  }
+
+  .AboutUsBottomWrap {
+    order: -1;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutUsBottomWrap .AboutInfo {
+    padding: 0;
+    order: 1;
+  }
+
+  .AboutUsTopWrap {
+    width: 100%;
+  }
+
+  .AboutUsTopWrap .AboutInfo p {
+    margin-bottom: 40px;
+  }
+
+  .AboutInfo p {
+    margin-bottom: 10px;
+  }
+
+  .AboutImg {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 575px) {
+    .AboutInfo p {
+        font-size: 14px;
+    }
+    
+    .AboutInfo h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+}

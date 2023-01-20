@@ -1,0 +1,107 @@
+.about-banner {
+    background: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-banner h3 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 40px 15px;
+}
+
+.about-column .nav-link {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px;
+    border-bottom: 1px solid #D9D9D9;
+    border-radius: 0;
+    position: relative;
+}
+
+.about-column {
+    background: #fff;
+}
+
+.about-column .nav-item:nth-last-child(1) .nav-link {
+    border: navajowhite;
+}
+
+.about-column .nav-link.active,
+.about-column .show>.nav-link {
+    background: transparent;
+    color: #043289;
+}
+
+.about-column .nav-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: #043289;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.about-column .nav-link.active::after {
+    opacity: 1;
+}
+
+@media (max-width:1599px) {
+    .pagination .page-link {
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+
+    .about-banner h3 {
+        font-size: 26px;
+        line-height: 38px;
+        padding: 60px 15px;
+    }
+
+    .about-banner {
+        margin-bottom: 25px;
+    }
+
+    .how-work-titles h3,
+    .ourTeam-section h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1429px) {
+    .about-banner h3 {
+        font-size: 24px;
+        padding: 40px 15px;
+    }
+
+    .about-title {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width:1199px) {
+
+    .about-title {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width:991px) {
+    .about-banner h3 {
+        font-size: 20px;
+        padding: 30px 15px;
+        line-height: inherit;
+    }
+}

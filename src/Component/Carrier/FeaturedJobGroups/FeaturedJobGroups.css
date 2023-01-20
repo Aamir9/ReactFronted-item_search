@@ -1,0 +1,43 @@
+.job-description-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.job-description-title h5 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+
+.accordion-body {
+    border-top: 1px solid #00000005!important;
+}
+
+.job-description p {
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+.job-description h6 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+
+.job-description ul li {
+    color: rgba(0, 0, 0, 0.75);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 12px;
+}

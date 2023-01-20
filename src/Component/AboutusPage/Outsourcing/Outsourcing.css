@@ -1,0 +1,19 @@
+.histroy-info ul {
+    margin-bottom: auto;
+}
+
+.histroy-info ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.histroy-info ul li h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 12px;
+}
+
+.histroy-info ul li ul {
+    margin-bottom: 15px;
+}

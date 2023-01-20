@@ -1,0 +1,80 @@
+
+.rentFormMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #043289;
+    padding: 80px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.rentFormMain h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.rentFormMain p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.rentFormMain .btn-white svg {
+    font-size: 26px;
+}
+
+.rentFormMain .btn-white:hover {
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.rentFormMain::after {
+    content: "";
+    background-image: url('../../../../public/assets/images/rentFormMain.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .rentFormMain h3 {
+        font-size: 28px;
+        line-height: initial;
+        margin-bottom: 10px;
+    }
+    
+   
+}
+
+@media (max-width: 991px) {
+    .rentFormMain h3 {
+        font-size: 24px;
+        line-height: initial;
+        margin-bottom: 10px;
+    }
+    
+    .rentFormMain {
+        padding: 60px 30px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .rentFormMain {
+        flex-wrap: wrap;
+    }
+    
+    .rentFormMain a {
+        margin: 0;
+    }    
+}

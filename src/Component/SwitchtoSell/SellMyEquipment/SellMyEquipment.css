@@ -1,0 +1,13 @@
+.sellwithusSection .white-0{
+    background-color: transparent !important;
+}
+
+.white-0 .sellwithusImg::after {
+    background: linear-gradient(117deg, #f8f8f8 23.82%, rgb(248 248 248 / 20%) 59.79%);
+}
+@media (max-width: 991px){
+    .white-0 .sellwithusImg::after {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    background: linear-gradient( 16deg, #ffffff 20.82%, rgba(255, 255, 255, 0) 57.79% );
+}
+}

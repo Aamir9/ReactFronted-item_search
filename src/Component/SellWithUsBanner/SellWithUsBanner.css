@@ -1,0 +1,132 @@
+.sellwithusSection {
+  overflow: hidden;
+  padding: 80px 0 0;
+}
+
+.sellwithusImg {
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+  position: relative;
+  width: 60%;
+  height: 430px;
+}
+
+.sellwithusImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sellwithusSection .bg-white {
+  display: flex;
+  align-items: center;
+}
+
+.sellwithusInfo {
+  width: 40%;
+  padding: 0px 0 0 50px;
+}
+
+.sellwithusImg::after {
+  content: "";
+  background: linear-gradient(
+    104.02deg,
+    #ffffff 20.82%,
+    rgba(255, 255, 255, 0) 57.79%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.sellwithusInfo h4 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.sellwithusInfo p {
+  letter-spacing: 0.01em;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+
+@media (max-width: 1429px) {
+  .sellwithusSection {
+    padding: 60px 0;
+  }
+  
+}
+@media (max-width: 1199px) {
+  .sellwithusInfo h4 {
+    font-size: 26px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .sellwithusSection .bg-white {
+    flex-wrap: wrap;
+  }
+  .sellwithusSection {
+    padding: 50px 0;
+  }
+  .sellwithusInfo {
+    width: 100%;
+    order: 1;
+    padding: 15px;
+    margin-top: -20px;
+  }
+
+  .sellwithusImg {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  }
+
+  .sellwithusImg::after {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    background: linear-gradient(
+      16deg,
+      #ffffff 20.82%,
+      rgba(255, 255, 255, 0) 57.79%
+    );
+  }
+
+.rentFormMain {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+}
+
+@media (max-width: 767px) {
+  .sellwithusSection {
+    padding: 50px 0 60px;
+  }
+  
+}
+
+@media (max-width: 575px) {
+  .sellwithusSection {
+    padding: 50px 0 30px;
+  }
+
+    .sellwithusInfo h4 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    
+    .sellwithusInfo p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,151 @@
+.product-sidebar h5 {
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 15px;
+}
+
+.filter-tags {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.filter-tags li {
+  background: #fff;
+  padding: 8px 11px;
+  margin: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.filter-tags li span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+}
+
+.filter-tags li a {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 9px;
+  background: rgba(232, 0, 0, 0.1);
+  color: #E80000;
+  font-size: 18px;
+}
+.ProductWrap .product-header-wrap {
+  display: none;
+}
+
+@media (max-width:1300px) {
+  .inventoryPageSidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-440px);
+}
+  .ProductWrap{
+    gap: 0;
+    display: block;
+  }
+  .ProductWrap .product-header-wrap {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 4px;
+}
+.ProductWrap .product-header-wrap a{
+  display: flex;
+  margin-left: auto;
+}
+.product-main-list{
+  width: 100%;
+}
+}
+
+@media (max-width:991px) {
+  .ProductWrap .product-header-wrap {
+    margin: 20px 0 15px;
+}
+.ProductWrap .btn-wrap {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ProductWrap .btn-wrap a {
+  width: calc(50% - 5px);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ProductWrap .productItem-Img {
+  width: 280px;
+  min-width: 280px;
+  height: 280px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ProductWrap .productItem-Info {
+  width: calc(100% - 290px);
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #ECECEC;
+}
+.pagination{
+  flex-wrap: wrap;
+}
+}
+@media (max-width:767px) {
+  .productItem-wrap {
+    flex-wrap: wrap;
+}
+
+.ProductWrap .productItem-Info {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ProductWrap .productItem-Img {
+    margin-bottom: 20px;
+}
+
+.filter-tags li span {
+  font-size: 14px;
+}
+.filter-tags{
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.filter-tags li {min-width: fit-content;}
+}
+@media (max-width:575px) {
+
+.filter-tags li span {
+  font-size: 14px;
+}
+
+
+.filter-tags {
+  flex-wrap: wrap;
+}
+
+.productItem-Info h4 {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 6px;
+}
+
+.advertising-wrap li a, .productItem-Info p {
+  font-size: 14px;
+  line-height: 24px;
+}
+  
+}

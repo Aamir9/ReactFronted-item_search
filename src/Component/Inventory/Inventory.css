@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+  .inventoryPage .product-main-list .row {
+    flex-wrap: wrap;
+  }
+
+  .inventoryPage .product-main-list .row .col-lg-4 {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 767px) {
+    .inventoryPage .product-main-list .row .col-lg-4 {
+      width: 100%;
+    }
+  }
+  

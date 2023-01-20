@@ -1,0 +1,21 @@
+.Wishlist_Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px;
+}
+
+.Wishlist_Header h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Wishlist_Header a {
+    color: red;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.Wishlist-main .ProductImg {
+    height: 280px;
+}

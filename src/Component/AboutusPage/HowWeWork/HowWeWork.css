@@ -1,0 +1,123 @@
+.how-work-titles {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.how-work-titles h3 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.how-work-titles p {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.how-works-section {
+    padding: 100px 0;
+}
+
+.how-work-item {
+    background: #fff;
+    padding: 25px 20px;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.how-work-item h5 {
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    transition: all 0.5s;
+}
+
+.how-work-item p {
+    letter-spacing: 0.01em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+
+.how-work-item:hover {
+    background: #043289;
+}
+
+.how-work-item:hover p,
+.how-work-item:hover h5 {
+    color: #fff;
+}
+
+@media (max-width:1599px) {
+    .how-works-section {
+        padding: 80px 0;
+    }
+
+    .how-work-item h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+}
+
+@media (max-width:1429px) {
+
+    .how-work-titles {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:1199px) {
+
+    .how-work-titles h3 {
+        font-size: 26px;
+        line-height: unset;
+    }
+    .how-work-item{
+        margin-bottom: 15px;
+        height: calc(100% - 15px);
+    }
+    .how-works-section{
+        padding: 60px 0;
+    }
+}
+@media (max-width:767px) {
+    .how-work-titles p{
+        line-height: inherit;
+    }
+    .how-work-titles{
+        margin-bottom: 20px;
+    }
+    .how-work-item p {
+        font-size: 14px;
+        line-height: initial;
+    }
+    
+    .how-work-item h5 {
+        font-size: 18px;
+        line-height: inherit;
+        margin-bottom: 5px;
+    }
+    
+    .how-works-section {
+        padding-bottom: 40px;
+    }
+}

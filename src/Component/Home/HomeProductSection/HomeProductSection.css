@@ -1,0 +1,286 @@
+.product-wrap {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+
+.product-sidebar {
+  background: #fff;
+  position: sticky;
+  top: 150px;
+  padding: 20px;
+  width: 295px;
+}
+
+.product-sidebar h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.product-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: calc(100vh - 310px);
+  overflow: auto;
+}
+
+.product-sidebar ul li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: block;
+  padding: 8px 0 12px 0;
+}
+
+.product-sidebar ul li a:hover {
+  color: #043289;
+}
+
+.product-sidebar ul li:nth-last-child(1) a {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.product-main-list {
+  width: calc(100% - 315px);
+}
+
+.product-main-list h2 {
+  letter-spacing: 0.01em;
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 43px;
+  background: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.ProductCardItem {
+  background: #ffffff;
+  padding: 12px;
+  margin: 12.5px 0;
+}
+
+.ProductImg {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  margin-bottom: 12px;
+}
+
+.ProductImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.whiteTag {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9;
+  background: #fff;
+  color: #043289;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 2px 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  max-width: 150px;
+}
+
+.heart-Ico {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #e80000;
+  font-size: 22px;
+}
+.heart-Ico svg path{
+  fill:#e80000;
+}
+
+.ProductInfo h5 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 6px;
+}
+
+.ProductInfo p {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.ProductInfo h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.ProductInfo h6 del {
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.ProductBtnWrap {
+  display: flex;
+  gap: 12px;
+}
+.product-header-wrap a {
+  display: none;
+  color: #043289;
+  background: rgba(4, 50, 137, 0.1);
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  z-index: 999;
+}
+@media (max-width: 1599px) {
+  .product-main-list h2 {
+    font-size: 24px;
+  }
+
+
+  .product-sidebar ul li a {
+    font-size: 14px;
+  }
+
+  .ProductInfo h5 {
+    font-size: 22px;
+  }
+
+.homePageRow .col-xl-3 {
+  flex: 0 0 auto;
+  width: 33.33%;
+}
+}
+
+@media (max-width: 1429px) {
+
+
+.ProductBtnWrap a {
+  padding: 6px 10px;
+}
+
+.ProductImg {
+  height: 250px;
+}
+.ProductInfo h5 {
+  font-size: 18px;
+}
+}
+
+@media (max-width: 1199px) {
+  .ProductImg {
+    height: 300px;
+  }
+  .product-main-list .row .col-lg-4 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+ 
+  .product-header-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .product-header-wrap h2 {
+    background-color: transparent;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .product-header-wrap a {
+    display: flex;
+  }
+
+  .product-sidebar {
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    z-index: 999;
+    transform: translateX(-400px);
+  }
+  .product-sidebar.show {
+    transform: translateX(0);
+    transition: all 0.5s;
+}
+  .product-main-list {
+    width: 100%;
+  }
+
+  .product-wrap {
+    position: relative;
+  }
+
+  .product-main-list .row {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-header-wrap {
+    margin-bottom: 10px;
+  }
+
+  .product-main-list .row .col-lg-4 {
+    width: 340px;
+  }
+
+  .ProductInfo h5 {
+    font-size: 20px;
+    line-height: initial;
+  }
+
+  .ProductInfo p {
+    font-size: 14px;
+  }
+
+  .ProductImg {
+    height: 260px;
+  }
+  .heart-Ico {
+    width: 40px;
+    height: 40px;
+  }
+}

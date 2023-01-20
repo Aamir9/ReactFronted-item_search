@@ -1,0 +1,9 @@
+.d-margin {
+  margin-top: 200px;
+}
+
+@media (max-width: 767px) {
+  .d-margin {
+    margin-top: 160px;
+  }
+}

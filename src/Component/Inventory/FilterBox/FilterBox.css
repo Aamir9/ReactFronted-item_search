@@ -1,0 +1,79 @@
+.filter-accordion .accordion-button {
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 0 0 15px 0;
+    border-radius: 0;
+    border: none;
+}
+
+.filter-accordion .accordion-button:focus {
+    border-color: #0000;
+}
+
+.filter-accordion .accordion-item {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.filter-accordion .accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.filter-accordion .accordion-body {
+    padding: 0 0px 20px 15px;
+}
+
+.product-sidebar-height ul {
+    height: auto;
+}
+
+.price-list-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.price-list-wrap input {
+    background: #F8F8F8;
+    width: 78px;
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.price-list-wrap span {
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    margin-right: 10px;
+}
+
+.price-list-wrap a {
+    background: #043289;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 27px;
+    margin-left: auto;
+    min-width: 40px;
+}
+
+.filter-list-item .black-custom-checkbox {
+    margin: 0;
+}
+
+.filter-list-item .black-custom-checkbox p {
+    font-size: 16px;
+    font-weight: 400;
+}

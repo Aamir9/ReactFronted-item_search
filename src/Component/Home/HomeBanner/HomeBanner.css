@@ -1,0 +1,373 @@
+.home-banner-section {
+    padding: 20px 0 100px;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 100%;
+    border: none;
+    padding: 0 15px 0 40px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.searchbar input::placeholder {
+    opacity: 0.5;
+}
+
+.searchbar span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    left: 10px;
+    font-size: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar .btn-blue{
+    margin-left: 15px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+}
+.input-form {
+    width: 100%;
+    border: none;
+    height: 56px;
+    padding: 0 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.HBanner-01 {
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    height: 322px;
+}
+
+.HBanner-01 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.HBanner-01::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+}
+
+.HBanner-info-01 {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 1;
+    width: 100%;
+}
+
+.HBanner-info-01 h2 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 15px;
+    max-width: 610px;
+}
+
+.HBanner-02 {
+    background: #9E3023;
+    position: relative;
+    z-index: 9;
+}
+
+.HBanner-02 img {
+    width: 100%;
+    max-width: 460px;
+    margin-left: auto;
+    display: block;
+}
+
+.HBanner-02::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, #9E3023 0%, rgba(0, 0, 0, 0) 98.92%);
+    width: 100%;
+    height: 100%;
+    max-width: 460px;
+}
+
+.HBanner-info-02 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.HBanner-info-02 h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    max-width: 350px;
+    margin-bottom: 0;
+}
+
+.HBanner-info-02 a {
+    margin-left: auto;
+}
+
+.btn-red {
+    background: #9E3023;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-auction {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+
+.btn-red:hover {
+    background: #cd2713;
+    color: #fff;
+}
+
+.HBanner-03 {
+    background: #9A7210;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.HBanner-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    z-index: 9;
+}
+
+.HBanner-info h5 {
+    color: rgba(255, 255, 255, 0.47);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    margin-bottom: 0;
+}
+
+.HBanner-info a {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.HBanner-info a svg {
+    margin-left: 7px;
+}
+
+.HBanner-info a:hover svg {
+    animation: arrowAnimation 2s infinite alternate-reverse;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        transform: translateX(10px);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.HBanner-03::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 11, 37, 0.4) 1.44%, rgba(26, 44, 85, 0) 147.7%);
+}
+
+.HomeBanner-row.row>* {
+    --bs-gutter-x: 1rem;
+}
+
+.HomeBanner-row .mb-2 {
+    margin-bottom: 1rem !important;
+}
+
+.HomeBanner-row .col-lg-3 {
+    width: 20.833%;
+}
+.HBanner-Color::after{
+    display: none;
+}
+@media (max-width: 1599px) {
+    .HBanner-info h5 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+
+    .HBanner-info-02 h3 {
+        font-size: 24px;
+    }
+    .home-banner-section {
+        padding: 20px 0 80px;
+    }
+}
+@media (max-width: 1429px) {
+    .home-banner-section {
+        padding: 20px 0 60px;
+    }
+    .HBanner-info-01 h2 {
+        font-size: 28px;
+        line-height: unset;
+    }
+}
+@media (max-width: 1199px) {
+    .HBanner-info h5 {
+        font-size: 25px;
+        line-height: unset;
+        margin-bottom: 5px;
+    }
+
+    .HBanner-info-01 h2 {
+        font-size: 28px;
+    }
+    .home-banner-section{
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .HomeBanner-row.row>* {
+        --bs-gutter-x: 1.5rem;
+    }
+    .HBanner-02{
+        margin-bottom: 15px;
+    }
+    .HomeBanner-row .col-lg-3 {
+        width: 50%;
+    }
+
+    .home-banner-section {
+        padding: 0 0 40px;
+    }
+
+    .HBanner-03 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        max-width: 200px;
+    }
+    
+    .HBanner-info-01 h2 {
+        font-size: 26px;
+    }
+    
+    .HBanner-01 {
+        height: 200px;
+    }
+    
+    .HBanner-02 {
+        height: 130px;
+    }
+    
+    .HBanner-02 img {
+        height: 100%;
+    }
+    
+    .HBanner-info-02 h3 {
+        font-size: 22px;
+    }
+    
+    .HBanner-info-02 {
+        padding: 0 20px;
+    }
+    
+    .HBanner-03 {
+        height: 130px;
+    }
+    
+    .HBanner-info h5 {
+        font-size: 22px;
+    }
+    
+    .HBanner-info a {
+        font-size: 18px;
+    }
+}
+@media (max-width: 575px) {
+    .input-form, .searchbar input {
+        height: 48px;
+        font-size: 14px;
+    }
+    .searchbar .btn-blue{
+        height: 48px;
+    }
+}
+@media (max-width: 479px) {
+    .HBanner-info-01 {
+        left: 0;
+        padding: 0 15px;
+    }
+    
+    .HBanner-info-01 h2 {
+        font-size: 24px;
+        line-height: initial;
+    }
+    .HBanner-info-02 {
+        padding: 0 15px;
+    }
+    
+    .HBanner-info {
+        padding: 15px;
+    }
+
+}
